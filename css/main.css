@@ -35,3 +35,11 @@ html {
 *::after {
   box-sizing: inherit;
 }
+.nav-search{
+  width: 200px;
+  padding: 5px;
+  padding-right: 0;
+  border: none;
+  border-bottom: 1px solid #ccc
+  ;
+}
