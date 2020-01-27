@@ -88,3 +88,38 @@ content: "";
   font-size: 15px;  
   background-color: #ea625c;
 }
+.feature-info{
+  width: 290px; 
+}
+.feature-info h3{
+font-size: 15px;  
+font-weight: 700; 
+}
+.feature-info p{
+  font-size: 15px;
+}
+.feture-link{
+  position: relative;
+  display: inline-block;
+  padding-left: 40px; 
+  font-size: 15px;  
+  font-weight: 700; 
+  color: #ea625c;
+}
+.feture-link::before{
+position: absolute;
+top: 10px;
+left: 0;  
+display: block;
+width: 30px;
+height: 2px;  
+background-color: #ea625c;
+content: "";
+}
+.feture-link:hover::before{
+  width: 40px;  
+}
+.feture-link:hover{
+  padding-left: 50px; 
+  color: #ea625c;
+}
