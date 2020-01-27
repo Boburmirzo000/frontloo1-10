@@ -123,3 +123,15 @@ content: "";
   padding-left: 50px; 
   color: #ea625c;
 }
+.band-info{
+  width: 410px;
+}
+.band-heading{
+  font-size: 35px;
+  font-weight: 700;
+}
+.band-link{
+  font-weight: 400; 
+  font-size: 15px;  
+  background-color: #ea625c;
+}
